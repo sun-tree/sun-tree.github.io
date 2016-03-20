@@ -1,1 +1,36 @@
-@import url(http://fonts.googleapis.com/css?family=Actor);body{color:#3f4b3e;font-family:serif}a:link,a:visited{color:#3f4b3e;text-decoration:none}a:hover{color:#3f4b3e;text-decoration:underline}#menu{top:0;position:fixed;left:0;height:40px;z-index:70;width:100%;padding:0;margin:0;text-align:right}#menu>li{display:inline-block;margin:20px 40px 0 0;color:#000;font-family:'Actor',sans-serif;font-size:18px}#menu>li.active{text-decoration:underline}#section1 h1{font-size:18px;line-height:1.8;margin-bottom:1em}#section1 .row{font-size:16px;line-height:1.5}#section1 .th{text-align:right}@media screen and (max-width: 768px){#section1 .th{text-align:left;}}
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?87t104');
+    src:    url('fonts/icomoon.eot?87t104#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?87t104') format('truetype'),
+        url('fonts/icomoon.woff?87t104') format('woff'),
+        url('fonts/icomoon.svg?87t104#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+    content: "\e900";
+}
+.icon-google-plus2:before {
+    content: "\e901";
+}
+.icon-facebook2:before {
+    content: "\e902";
+}
+

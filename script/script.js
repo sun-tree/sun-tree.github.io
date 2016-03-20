@@ -1,11 +1,9 @@
 $(function(){
   $('#fullpage').fullpage({
-    sectionsColor: ['#ffffff', '#ffffff', '#ffffff'],
-    anchors: ['home', 'about', 'contact'],
+    sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+    anchors: ['home', 'about', 'works', 'contact'],
     menu: '#menu',
     continuousVertical: false,
-    navigation: true,
-    navigationPosition: 'right',
-    navigationTooltips: ['Home', 'About', 'Contact']
+    navigationTooltips: ['Home', 'About', 'works', 'Contact']
   });
 })
